@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 
 export function IMageSlider() {
   const slides = [
-    '/img1.webp',
-    '/img2.webp',
-    '/img3.webp'
+    `${process.env.PUBLIC_URL}/img1.webp`,
+    `${process.env.PUBLIC_URL}/img2.webp`,
+    `${process.env.PUBLIC_URL}/img3.webp`
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
