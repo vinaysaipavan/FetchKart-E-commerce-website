@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FetchKart-E-commerce-website/static/css/main.fddb9f46.css",
-    "main.js": "/FetchKart-E-commerce-website/static/js/main.e46af6d3.js",
+    "main.js": "/FetchKart-E-commerce-website/static/js/main.b1ebb501.js",
     "static/js/453.ad6eb26e.chunk.js": "/FetchKart-E-commerce-website/static/js/453.ad6eb26e.chunk.js",
     "index.html": "/FetchKart-E-commerce-website/index.html",
     "main.fddb9f46.css.map": "/FetchKart-E-commerce-website/static/css/main.fddb9f46.css.map",
-    "main.e46af6d3.js.map": "/FetchKart-E-commerce-website/static/js/main.e46af6d3.js.map",
+    "main.b1ebb501.js.map": "/FetchKart-E-commerce-website/static/js/main.b1ebb501.js.map",
     "453.ad6eb26e.chunk.js.map": "/FetchKart-E-commerce-website/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fddb9f46.css",
-    "static/js/main.e46af6d3.js"
+    "static/js/main.b1ebb501.js"
   ]
 }
