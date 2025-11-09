@@ -25,6 +25,7 @@ app.get("/check-auth", auth, (req, res) => {
 app.use("",login);
 app.use("",signup);
 
+
 app.listen(5000, () => {
     console.log("App is listened at 5000");
 });
