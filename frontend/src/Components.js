@@ -2,9 +2,8 @@ import { IoMdAdd  } from "react-icons/io";
 import { MdOutlineDeleteForever } from "react-icons/md";
 import { FaShoppingCart } from 'react-icons/fa';
 import { PiSignInBold } from "react-icons/pi";
-import { BackToTop , BottomSignIn ,LOGO , SearchBar , MainSearchBar , Footer , Delivery , Language , Scrollitems} from "./Minorcomponents";
+import { IMageSlider, BackToTop , BottomSignIn ,LOGO , SearchBar , MainSearchBar , Footer , Delivery , Language , Scrollitems} from "./Minorcomponents";
 import { NavLink } from "react-router-dom";
-import { IMageSlider } from "./Imageslider"
 
 
 export function MainPage({ products, Cart, SetCart, CartCount, setCartCount}){

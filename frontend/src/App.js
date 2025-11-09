@@ -4,7 +4,6 @@ import { MainPage } from "./Components";
 import { CartPage } from "./Cart";
 import { Signup } from "./signup";
 import { Signin } from "./signin";
-import { FetchKartProfile } from "./profile";
 
 export default function App() {
   const [products, setProducts] = useState([]);
@@ -62,7 +61,6 @@ export default function App() {
         />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Signin />} />
-        <Route path="/profile" element={<FetchKartProfile />} />
       </Routes>
     </Router>
   );
