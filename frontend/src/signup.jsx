@@ -16,11 +16,11 @@ export function Signup(){
                 username : username,
                 email : email,
                 password : password,
-            })
+            },
+            {withCredentials:true})
             console.log("Response from backend:",response.data);
             alert(response.data.message);
             if(response.status==201){
-                localStorage.setItem("authToken", "dummyToken");
                 navigate("/");
             }
         }catch(err){

@@ -16,11 +16,10 @@ export function Signin() {
             const response = await axios.post("http://localhost:5000/login", {
                 email: email,
                 password: password,
-            });
+            },{withCredentials:true});
             console.log("Response from backend:", response.data);
             alert(response.data.message);
             if(response.status===200){
-                localStorage.setItem("authToken", "dummyToken");
                 navigate("/");
             }
         } catch (err) {

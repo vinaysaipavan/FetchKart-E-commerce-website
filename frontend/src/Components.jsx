@@ -1,3 +1,4 @@
+import axios from "axios";
 import { IoMdAdd } from "react-icons/io";
 import { MdOutlineDeleteForever } from "react-icons/md";
 import { FaShoppingCart } from "react-icons/fa";
@@ -23,10 +24,15 @@ export function MainPage({ products, Cart, SetCart, CartCount, setCartCount }) {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   useEffect(() => {
-    const token = localStorage.getItem("authToken");
-    if (token) {
-      setIsLoggedIn(true);
-    }
+  axios.get("http://localhost:5000/check-auth", { withCredentials: true })
+    .then((res) => {
+      if (res.data.authenticated) {
+        setIsLoggedIn(true);
+      }
+    })
+    .catch(() => {
+      setIsLoggedIn(false);
+    });
   }, []);
 
   const AddToCart = (id) => {
