@@ -35,7 +35,6 @@ export function Signin() {
                 <form onSubmit={handleSubmit}>
                     <input
                         type="email"
-                        name="email"
                         id="email"
                         autoComplete="email"
                         placeholder="Email"
@@ -46,7 +45,6 @@ export function Signin() {
                     <div className="relative mb-6">
                         <input
                             type={showPassword ? "text" : "password"}
-                            name="password"
                             autoComplete="current-password"
                             placeholder="Password"
                             className="w-full p-2 pr-10 border rounded"
