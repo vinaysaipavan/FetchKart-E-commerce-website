@@ -20,6 +20,7 @@ export function Signin() {
             console.log("Response from backend:", response.data);
             alert(response.data.message);
             if(response.status===200){
+                localStorage.setItem("authToken", "dummyToken");
                 navigate("/");
             }
         } catch (err) {
