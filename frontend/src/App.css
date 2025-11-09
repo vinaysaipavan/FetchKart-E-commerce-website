@@ -1,0 +1,45 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.code115{
+  @apply cursor-pointer flex items-center justify-center;
+}
+.code112{
+  @apply border-transparent border-[2px] hover:border-white duration-200;
+}
+li{
+  @apply flex items-center cursor-pointer hover:text-yellow-300 whitespace-nowrap;
+}
+.scrollbar-hide::-webkit-scrollbar {  /* for chrome opera safari */
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.back{
+  background: linear-gradient(90deg,rgb(89, 79, 108),rgb(67, 67, 92));
+}
+.back:hover{
+  background: linear-gradient(90deg,rgb(70, 62, 85),rgb(67, 67, 97));
+}
+l{
+  @apply underline
+}
+.borderb{
+  border-bottom: 1px solid rgb(41, 40, 40);
+}
+l{
+  @apply cursor-pointer ;
+}
+.code1134{
+  @apply hover:underline duration-75;
+}
+.code155{
+  @apply text-[12px] text-blue-500 cursor-pointer;
+}
